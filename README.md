@@ -6,7 +6,7 @@ This site will be an introduction to myself and a showcase of what I have done i
 
 Planning will be an instrumental part to the success of this project. Below I have included some wireframes to serve as an example of the possible organization/structure of my pages.
 
-![Wireframe of Landing/Home Page](wireframes\Wireframe 1.jpg)
+![Wireframe of Landing/Home Page](wireframes/Wireframe%201.jpg)
 
 
 Header - will include the page title and my navigation menu 
@@ -17,16 +17,22 @@ Main Content - will include a slide show of images and a highlighted goal of the
 
 Footer - will include various hyperlinked social media icons
 
-![Wireframe of About Me Page](wireframes\Wireframe 2.jpg)
+![Wireframe of About Me Page](wireframes/Wireframe%202.jpg)
 
 Header - will include the page title and my navigation menu 
 
 Navigation Menu - will include additional tabs or links to other pages such as: Home, About Me/Bio, and Contact
 
-Main Content - willl provide personal background information about myself as a brief introduction. On the right hand side will be multiple subcategories/tabs that can be use to navigate to additional 'About Me' topics
+Main Content - will provide personal background information about myself as a brief introduction. On the right hand side will be multiple subcategories/tabs that can be use to navigate to additional 'About Me' topics
 
 Footer - will include various hyperlinked social media icons
 
-![Wireframe of Contact Page](wireframes\Wireframe 3.jpg)
+![Wireframe of Contact Page](wireframes/Wireframe%203.jpg)
 
-    
+Header - will include the page title and my navigation menu 
+
+Navigation Menu - will include additional tabs or links to other pages such as: Home, About Me/Bio, and Contact
+
+Main Content - will provide various hyperlinked icons to my contact info. Examples: phone #, email, WhatsApp, LinkedIn, etc.
+
+Footer - will include various hyperlinked social media icons
