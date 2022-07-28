@@ -11,6 +11,19 @@ body {
 
 }
 
+  
+  .error-message {
+    margin-top: -1em;
+    margin-bottom: 1em;
+    color: #C62828;
+  }
+
+.error{
+    border-color: red;
+    color: red
+    margins: -1em 0 1.5em;
+}
+
 .header{
     background-color: rgb(233, 195, 146);
     text-align: center;
@@ -22,7 +35,25 @@ body {
     background-color: rgb(130, 84, 24);
 }
 
+<<<<<<< Updated upstream
 .topnav a {
+=======
+[type="submit"]{
+    background: rgb(130, 84, 24)
+    color:rgb(2, 1, 0);
+    width: 100%;
+    font-size: 1.5em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    border: 0;
+    padding: .5em;
+    cursor: pointer;
+}
+
+.topnav a{
+>>>>>>> Stashed changes
     float: right;
     display:block;
     color:black;
@@ -36,10 +67,15 @@ body {
     color:black;
 }
 
+<<<<<<< Updated upstream
 .footer {
     background-color:rgb(233, 195, 146);
+=======
+.footer{
+    background-color: #974200;
+>>>>>>> Stashed changes
     text-align: center;
-    padding: 10px;
+    padding: 5px;
 }
 
 img{
