@@ -6,36 +6,63 @@
     <title>Courteney Shovlin - Introduction</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <header> 
-        <nav> 
-            <ul>
-                <li><a href = "index.html">Home</a></li>
-                <li><a href = "aboutme.html">About Me</a></li>
-                <li><a href = "contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+
+<body class="body"> 
+    
     <main>
-        
-                <h1>About Me</h1>
-                <p>Hi everyone! My name is Courteney Shovlin. I am 24 years old and currently live in Montana.
-                    
-                </p>
+    <body class="body">
+        <header class="header"> 
+            <nav class="topnav">  
+                <div id="myMenu" class="dropdown">
+                    <a href="javascript: void(0)" class="buttonX" onclick="closeMenu( )">&times;</a>
+                <div class="dropdown-lists">
+                        <a href="index.html">Home</a>
+                        <a href="aboutme.html">About Me</a>
+                        <a href="athletics.html">Courteney in Sports</a>
+                        <a href="travel.html">Courteney Abroad</a>
+                        <a href="contact.html">Contact</a>
+                </div>
+                </div>
+                <span class="hamburger" onclick="openMenu( )">&#9776;</span>
+                <script src="openMenu.js"></script>
+            </nav>
+        </header>
+        <main>
+                    <h1>About Me</h1>
+                    <p class="text">
+                        <div>Hi everyone! My name is Courteney Shovlin. I am 24 years old and currently live in Montana. I have a BA in History,
+                            and a master's in Sport's Management and Coaching. I recently served as the Director of Student Housing at an HBCU
+                            in Bluefield, West Virginia. I am currently pursuing opportunities in coaching college soccer. 
+                        </div>
+                        <div>
+                            Here are a few fun facts about me: 
+                        </div>
+                        <div>
+                            -I have 11 tattoos
+                        </div>
+                        <div>
+                            -I have a mini-aussie named Hero
+                        </div>
+                        <div>
+                            -I can speak Italian (enough to survive)
+                        </div>
+                            
+                    </p>
                 <div>
-                    <ul>
-                    <li><a href = "athletics.html">Courteney in Sports</a></li>
-                    <li><a href = "travel.html">Courteney Abroad</a></li>
-                    </ul>
-                    <div>
-            </div>
-        </div>
-        <div>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/QU0HMVaTrz4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>        
-       
-    </main>
-    <footer>
+                        <h1>Follow these links to learn more about me!</h1>
+                        <ul>
+                        <li><a href = "athletics.html">Courteney in Sports</a></li>
+                        <li><a href = "travel.html">Courteney Abroad</a></li>
+                        </ul>
+                </div>
+                
+            <div>
+                <h1>Intro Video</h1>
+                <iframe width="560" height="315" class="video" src="https://www.youtube.com/embed/QU0HMVaTrz4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>        
+           
+        </main>
+    <footer class="footer">
         <div>
              <h1>Thank You</h1>
                 <p>I appreciate you taking your time to explore more about me and my life. It has been a joy to have you here!</p>

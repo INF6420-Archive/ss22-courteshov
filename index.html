@@ -7,35 +7,42 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-    <header> 
-    <nav class="main-menu"> 
-        <ul>
-            <li><a href = "index.html">Home</a></li>
-            <li><a href = "aboutme.html">About Me</a></li>
-            <li><a href = "contact.html">Contact</a></li>
-        </ul>
-    </nav>
+<body class="body">
+    <header class="header"> 
+        <nav class="topnav"> 
+            <div id="myMenu" class="dropdown">
+                <a href="javascript: void(0)" class="buttonX" onclick="closeMenu( )">&times;</a>
+            <div class="dropdown-lists">
+                    <a href="index.html">Home</a>
+                    <a href="aboutme.html">About Me</a>
+                    <a href="contact.html">Contact</a>
+            </div>
+            </div>
+            <span class="hamburger" onclick="openMenu( )">&#9776;</span>
+            <script src="openMenu.js"></script>
+        </nav>
     </header>
-        <main>
-   
-        <div><img src= "images/headshot.jpg" alt= "Individual headshot of Courteney in a red dress"></div>
+    <main>
         <div>
-            <h1>Meet Courteney!</h1>
-            <p>Hello everyone! my name is Courteney Shovlin.</p>
+            <h1 class="text">Meet Courteney!</h1>
+            <img src= "images/headshot.jpg" alt= "Individual headshot of Courteney in a red dress" class="img">
+        </div>
+        <div>
+            <p class="text">
+                Hello everyone and welcome to my webpage. Please enjoy navigating this website and learning a little bit more about me.
+            </p>
         </div>
     </main>
-    <footer>
+    <footer class="footer">
         <div>
-            <h1>Thank You</h1>
+             <h1>Thank You</h1>
                 <p>I appreciate you taking your time to explore more about me and my life. It has been a joy to have you here!</p>
         </div>
-    <div>
-        <h1>Purpose</h1>
-        <p>This projected was created as part of my graduate studies at Wayne State University.</p>
-    </div>
+        <div>
+            <h1>Purpose</h1>
+            <p>This projected was created as part of my graduate studies at Wayne State University.</p>
+    
+        </div>
     </footer>
-    
-    
 </body>
 </html>

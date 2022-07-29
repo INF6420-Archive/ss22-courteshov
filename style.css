@@ -31,40 +31,140 @@
     background-color:bisque;
     color:black;
     font-family:Arial, Helvetica, sans-serif; 
+    }
 
+.video{
+    width: 50%;
+    padding: 10px
 }
 
-.header{
-    background-color: rgb(233, 195, 146);
-    text-align: center;
-    padding: 20px;
+.text{
+    width: 50%;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
-.topnav{
-    overflow: hidden;
-    background-color: rgb(130, 84, 24);
-}
+    .error-message {
+        margin-top: -1em;
+        margin-bottom: 1em;
+        color: #C62828;
+    }
 
-.topnav a {
-    float: right;
-    display:block;
-    color:black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
+    .error{
+        border-color: red;
+        color: red
+        margins: -1em 0 1.5em;
+    }
 
-.topnav a:hover {
-    background-color: darkgoldenrod;
-    color:black;
-}
+    .header{
+        background-color: rgb(233, 195, 146);
+        text-align: center;
+        padding: 20px;
+    }
 
-.footer {
-    background-color:rgb(233, 195, 146);
-    text-align: center;
-    padding: 10px;
-}
+    .topnav{
+        overflow: hidden;
+        background-color: rgb(130, 84, 24);
+    }
 
-img{
-    max-width: 100%;
-}
+
+    .topnav a {
+    [type="submit"]{
+        background: rgb(130, 84, 24)
+        color:rgb(2, 1, 0);
+        width: 100%;
+        font-size: 1.5em;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        border-radius: 3px;
+        border: 0;
+        padding: .5em;
+        cursor: pointer;
+    }
+    }
+
+    .topnav a{
+    >>>>>>> Stashed changes
+        float: right;
+        display:block;
+        color:black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    .topnav a:hover {
+        background-color: rgb(130, 84, 24);
+        color:black;
+    }
+
+
+    .footer{
+        background-color: rgb(130, 84, 24);
+        text-align: center;
+        padding: 5px;
+    }
+
+    .img{
+        max-width: 50%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .dropdown{
+        height: 0%;
+        width: 100%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #261800;
+        overflow-y: hidden;
+        transition: 0.5s;
+    }
+
+    .dropdown-lists{
+        position: relative;
+        top: 25%;
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .dropdown a{
+        padding: 8px;
+        text-decoration: none;
+        font-size: 30px;
+        color: grey;
+        display: block;
+        transition: 0.3s;
+    }
+
+    .dropdown a:hover, .dropdown a:focus {
+        color: whitesmoke;
+    }
+
+    .hamburger{
+        color:#002626;
+        left: 10px;
+        top: 20px;
+        font-size: 50px;
+        cursor: pointer;
+    }
+
+    .dropdown .buttonX {
+        top: 20px;
+        right: 50px;
+        font-size: 70px;
+        color: #73937e;
+    }
+
+    @media screen and (max-height:600px) {
+        .dropdown .buttonX {
+            font-size: 40px;
+        }
+        .hamburger{
+            font-size: 40px;
+        }
+    } 
