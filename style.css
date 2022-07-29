@@ -4,7 +4,30 @@
    margin: 0;
 }
 
-body {
+.main-menu{
+    position:relative; 
+}
+
+.menu-icon{
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    padding: 28px 20px;
+    position: relative;
+    user-select: none;
+}
+
+.menu-icon .navicon{
+    background:rgb(130, 84, 24);
+    display: block;
+    height: 2px;
+    position: relative;
+    transition: background 0.2s ease-out;
+    width: 18px;
+}
+
+
+.body {
     background-color:bisque;
     color:black;
     font-family:Arial, Helvetica, sans-serif; 
