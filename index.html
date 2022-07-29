@@ -4,40 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Courteney Shovlin - Introduction</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<header> 
-    <nav> 
-        <ul>
-            <li><a href = "">home.html</a></li>
-            <li><a href = "">aboutme.html</a></li>
-            <li><a href = "">contact.html</a></li>
-        </ul>
-    </nav>
-</header>
-<main>
-    <div>
-        <body>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/QU0HMVaTrz4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </body>
-    </div>
-    <div><img src= "images/headshot.jpg" alt= "Individual headshot of Courteney in a red dress"></div>
-    <div>
-        <h1>Meet Courteney!</h1>
-        <p>Hello everyone!</p>
-    </div>
-</main>
-<footer>
-    <div>
-         <h1>Thank You</h1>
-            <p>I appreciate you taking your time to explore more about me and my life. It has been a joy to have you here!</p>
-    </div>
-    <div>
-        <h1>Purpose</h1>
-        <p>This projected was created as part of my graduate studies at Wayne State University.</p>
 
-    </div>
-</footer>
-<body>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/QU0HMVaTrz4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<body class="body">
+    <header class="header"> 
+        <nav class="topnav"> 
+            <div id="myMenu" class="dropdown">
+                <a href="javascript: void(0)" class="buttonX" onclick="closeMenu( )">&times;</a>
+            <div class="dropdown-lists">
+                    <a href="index.html">Home</a>
+                    <a href="aboutme.html">About Me</a>
+                    <a href="contact.html">Contact</a>
+            </div>
+            </div>
+            <span class="hamburger" onclick="openMenu( )">&#9776;</span>
+            <script src="openMenu.js"></script>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <h1 class="text">Meet Courteney!</h1>
+            <img src= "images/headshot.jpg" alt= "Individual headshot of Courteney in a red dress" class="img">
+        </div>
+        <div>
+            <p class="text">
+                Hello everyone and welcome to my webpage. Please enjoy navigating this website and learning a little bit more about me.
+            </p>
+        </div>
+    </main>
+    <footer class="footer">
+        <div>
+             <h1>Thank You</h1>
+                <p>I appreciate you taking your time to explore more about me and my life. It has been a joy to have you here!</p>
+        </div>
+        <div>
+            <h1>Purpose</h1>
+            <p>This projected was created as part of my graduate studies at Wayne State University.</p>
+    
+        </div>
+    </footer>
 </body>
 </html>

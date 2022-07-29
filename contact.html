@@ -4,33 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Courteney Shovlin - Introduction</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<<<<<<< Updated upstream
-<header> 
-    <nav> 
-        <ul>
-            <li><a href = "">home.html</a></li>
-            <li><a href = "">aboutme.html</a></li>
-            <li><a href = "">contact.html</a></li>
-        </ul>
-    </nav>
-</header>
-<main>
-    
-=======
+
 <body class="body">
-    <header> 
-        <nav class="main-menu"> 
-            <ul>
-                <li><a href = "index.html">Home</a></li>
-                <li><a href = "aboutme.html">About Me</a></li>
-                <li><a href = "contact.html">Contact</a></li>
-            </ul>
+    <header class="header"> 
+        <nav class="topnav"> 
+            <div id="myMenu" class="dropdown">
+                <a href="javascript: void(0)" class="buttonX" onclick="closeMenu( )">&times;</a>
+            <div class="dropdown-lists">
+                    <a href="index.html">Home</a>
+                    <a href="aboutme.html">About Me</a>
+                    <a href="contact.html">Contact</a>
+            </div>
+            </div>
+            <span class="hamburger" onclick="openMenu( )">&#9776;</span>
+            <script src="openMenu.js"></script>
         </nav>
     </header>
     <main>
-        
-        <div>
+        <div class="text">
             <h1>Cell Phone/WhatsApp</h1>
             <p>406-868-0973</p>
             <h1>Email</h1>
@@ -41,18 +34,26 @@
         <form action="https://formspree.io/f/moqrggzv" method="post" class="validate">
            <div>
             <label for="name">Name</label>
-            <input name="name" id="Name" type="text" class="form-input">
-           </div> 
+           </div>
+            <div>
+                <input name="name" id="Name" type="text" class="form-input">
+            </div>
 
            <div>
             <label for="email">Email</label>
+           </div>
+           <div>
             <input name="Email" id="email" type="email" class="form-input" required>
            </div>
-
+            
            <div>
             <label for ="message">Message</label>
-            <textarea id="message" name="message" class="form-input" rows="4" required></textarea>
            </div>
+           <div>
+            <textarea id="message" name="message" class="form-input" rows="4" required></textarea>
+           </div> 
+            
+         
            
            <div>
             <input type="submit" value="Send">
@@ -60,25 +61,8 @@
 
           </form>
     </main>
+
     <footer class="footer">
-        <div>
-            <h1>Thank You</h1>
-                <p2>I appreciate you taking your time to explore more about me and my life. It has been a joy to have you here!</p2>
-        </div>
->>>>>>> Stashed changes
-    <div>
-        <h1>Cell Phone/WhatsApp</h1>
-        <p>406-868-0973</p>
-        <h1>Email</h1>
-        <p>courteney.shovlin@gmail.com</p>
-        <h1>Instagram</h1>
-        <p>courteney_shovlin</p>
-        <h1>LinkdIn</h1>
-        <p>Insert Link Somehow</p>
-    </div>
-<<<<<<< Updated upstream
-</main>
-<footer>
     <div>
          <h1>Thank You</h1>
             <p>I appreciate you taking your time to explore more about me and my life. It has been a joy to have you here!</p>
@@ -86,11 +70,9 @@
     <div>
         <h1>Purpose</h1>
         <p>This projected was created as part of my graduate studies at Wayne State University.</p>
-=======
+    </div>
     </footer>
+
     <script src="scrip.js"></script>
 </body>
->>>>>>> Stashed changes
-
-    </div>
-</footer>
+</html>
